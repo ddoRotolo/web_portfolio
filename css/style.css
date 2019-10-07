@@ -1,0 +1,105 @@
+/* 
+Colors
+https://color.hailpixel.com/#6685FF,8F9DD6,95D68F,C1D68F,D2B384,120C22,17333F,1D3F4E
+*/
+
+body {
+    background-color: #8F9DD6;
+    color: #120C22;
+    font-family: 'Bree Serif', serif;
+    padding: 0;
+    width: 100%;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+a {
+    color: #17333F;
+}
+
+a:hover {
+    color: #1D3F4E;
+}
+
+.navbar {
+    background-color: #C1D68F;
+}   
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: #D2B384;
+}
+
+#landing {
+    background-image: url('../img/splash_texture_01.jpg'); background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+
+#landing>h1, #landing>h2, #landing>p {
+    background-color: rgba(143, 157, 214, 0.6);
+}
+
+#landing>p {
+    text-align: right;
+}
+
+#landing>h3>a {
+    background-color: #120C22;
+    color: #8F9DD6;
+}
+
+#landing>h3>a:hover {
+    color: #D2B384;
+}
+
+#about {
+    background-image: url('../img/thumb4.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+    
+footer {
+    background-color: #C1D68F;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.experience {
+}
+
+.project>img {
+    width: 100%;
+}
+
+#portfolio {
+    list-style: none;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 18px;
+  }
+}
