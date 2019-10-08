@@ -9,3 +9,4 @@ What needs to be done
 - fix colorscheme [ ]
 - footer icons [ ]
 - proper background [ ]
+- use roboto and montserrat fonts [ ]

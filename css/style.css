@@ -35,7 +35,6 @@ a:hover {
 #landing {
     background-image: url('../img/splash_texture_01.jpg'); background-size: cover;
     background-repeat: no-repeat;
-    height: 480px;
 }
 
 #landing>h1, #landing>h2, #landing>p {
