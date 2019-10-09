@@ -1,0 +1,48 @@
+.background {
+    background-image: url('../img/splash_texture_01.jpg'); background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#landing {
+    height: 480px;
+}
+
+.display-1 {
+    line-height: 0.8;
+}
+
+.navbar {
+    background-color: rgba(143, 157, 214, 0.6);
+}   
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: rgba(143, 157, 214, 0.6);
+}
+
+
+.nav-item {
+    background-color: rgba(143, 157, 214, 0.0);
+}
+
+footer {
+    background-color: rgba(143, 157, 214, 0.6);
+}
+
+#landing>div, #landing>p {
+    background-color: rgba(143, 157, 214, 0.6);
+}
+
+#landing>p {
+    text-align: right;
+}
+
+#landing>div>h3>a {
+    background-color: #120C22;
+    color: #8F9DD6;
+}
+
+#landing>h3>a:hover {
+    color: #D2B384;
+}
+
