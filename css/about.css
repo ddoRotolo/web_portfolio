@@ -1,10 +1,32 @@
 #about {
-    background-image: url('../img/thumb4.jpg');
-    background-size: contain;
+    background-image: url('../img/thumb2.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 480px;
+}
+
+.hireable li:not(:first-child):before {
+  content: ", ";
+}
+
+.experience h4 {
+    display: inline-block;
 }
 
 .experience {
+    display: inline-block;
+    background: #aaa;
 }
+
+.experience ul {
+    list-style: none;
+}
+
+.hireable ul {
+    list-style: none;
+}
+
+.hireable li {
+    display: inline;
+}
+
 

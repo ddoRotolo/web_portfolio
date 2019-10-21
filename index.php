@@ -10,14 +10,7 @@
     </head>
     <body>
         <div class="container-fluid background">
-            <header class="row">
-                <nav class="text-center navbar col">
-                    <a class="pt-4 pb-3 active col nav-item nav-link active" href="index.html">home</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="about.html">about</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="projects.html">portfolio</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="contact.html">contact</a>
-                </nav>
-            </header>
+            <?php include 'header.php' ?>
             <div class="row justify-content-center align-items-end" id="landing" >
                 <div class="col-11">
                     <h1 class="display-1">Hello!<br>I'm Daniel Ocando</h1>
