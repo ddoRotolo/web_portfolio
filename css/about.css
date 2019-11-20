@@ -22,7 +22,7 @@
 }
 
 .experience li {
-    display: inline-block;
+    display: block;
 }
 
 .hireable li:not(:first-child):before {

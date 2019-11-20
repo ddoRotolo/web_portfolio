@@ -69,15 +69,15 @@
                 <h2 class="display-4 mt-5 col-12 col-sm-10">Job Experience</h2>
                 <div class="col-12 col-sm-10 p-3 experience">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12 col-sm-4">
                             <h4 class="time-period">Nov 2018 - Oct 2019</h4>
                             <h4 class="location">Buenos Aires</h4>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-sm-4">
                             <h4 class="company">Hexacta</h4>
                             <h4 class="position">QA Analyst</h4>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-sm-4">
                             <h4>Tasks</h4>
                             <ul class="tasks">
                                 <li>Test Case Creation</li>
@@ -86,17 +86,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-10 p-3 experience">
+                <div class="col-12 col-sm-10 p-3 experience">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-12 col-sm-4">
                             <h4 class="time-period">Sep 2016 - Oct 2018</h4>
                             <h4 class="location">Buenos Aires</h4>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-sm-4">
                             <h4 class="company">Globant</h4>
                             <h4 class="position">QA Analyst</h4>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-sm-4">
                             <h4>Tasks</h4>
                             <ul class="tasks">
                                 <li>Test Case Creation</li>

@@ -13,7 +13,7 @@
                 <p class="col-10 offset-sm-1">This is some of the work I've done throughout my career</p>
             </div>
             <ul class="row justify-content-center p-0" id="portfolio">
-                <li class="col-5 pb-5 project">
+                <li class="col-10 col-sm-5 pb-5 project">
                     <h4>Project 1</h4>
                     <img src="img/thumb1.jpg" alt="thumb1">
                     <p>
@@ -26,7 +26,7 @@
                     <p><strong>Password:</strong>1234</p>
                     <a href="ex_project.html">See Project</a>
                 </li>
-                <li class="col-5 pb-5 project">
+                <li class="col-10 col-sm-5 pb-5 project">
                     <h4>Project 2</h4>
                     <img src="img/thumb2.jpg" alt="thumb2">
                     <p>
@@ -39,7 +39,7 @@
                     <p><strong>Password:</strong>1234</p>
                     <a href="ex_project.html">See Project</a>
                 </li>
-                <li class="col-5 pb-5 project">
+                <li class="col-10 col-sm-5 pb-5 project">
                     <h4>Project 3</h4>
                     <img src="img/thumb3.jpg" alt="thumb3">
                     <p>
@@ -52,7 +52,7 @@
                     <p><strong>Password:</strong>1234</p>
                     <a href="ex_project.html">See Project</a>
                 </li>
-                <li class="col-5 pb-2 project">
+                <li class="col-10 col-sm-5 pb-2 project">
                     <h4>Project 4</h4>
                     <img src="img/thumb4.jpg" alt="thumb4">
                     <p>
