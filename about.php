@@ -9,7 +9,7 @@
     <body>
         <div class="container-fluid"> 
             <?php include 'header.php' ?>
-            <div class="row justify-content-center align-items-center main-content" id="about" >
+            <div class="row justify-content-center align-items-center main-content collapse show" id="about" >
                 <div class="col-12 col-sm-10">
                     <div class="row">
                         <h1 class="col-11 col-sm-6 display-3">About Me</h1>
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center main-content collapse show">
                 <div class="col-12 col-sm-10">
                     <div class="row" id="hireables">
                         <div class="col-12 col-sm-6 p-3 hireable">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row pb-3 justify-content-center align-items-center job-experience">
+            <div class="row pb-3 justify-content-center align-items-center job-experience main-content collapse show">
                 <h2 class="display-4 mt-5 col-12 col-sm-10">Job Experience</h2>
                 <div class="col-12 col-sm-10 p-3 experience">
                     <div class="row">
