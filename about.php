@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Ocando</title>
-        <?php include_once 'head.php' ?>
+        <?php include_once 'util/head.php' ?>
         <link rel="stylesheet" href="css/about.css">
     </head>
     <body>
         <div class="container-fluid"> 
-            <?php include 'header.php' ?>
+            <?php include 'util/header.php' ?>
             <div class="row justify-content-center align-items-center main-content collapse show" id="about" >
                 <div class="col-12 col-sm-10">
                     <div class="row">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <?php include 'footer.php' ?>
+            <?php include 'util/footer.php' ?>
         </div>
     </body>
 </html>

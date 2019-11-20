@@ -4,7 +4,7 @@
         <button 
          class="navbar-toggler" 
          type="button"
-         data-target=".navbar-collapse,.main-content" 
+         data-target=".main-content,.navbar-collapse" 
          data-toggle="collapse">
             <i class="fas fa-bars fa-2x"></i>
         </button>

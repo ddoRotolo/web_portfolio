@@ -3,18 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Ocando</title>
-        <?php include_once 'head.php' ?>
+        <?php include_once 'util/head.php' ?>
     </head>
         <div class="container-fluid"> 
-            <?php include 'header.php' ?>
-            <div class="row justify-content-center" id="contact" >
+            <?php include 'util/header.php' ?>
+            <div class="row justify-content-center main-content collapse show" id="contact" >
                 <h1 class="display-2 col-10">Lets Work!</h1>
                 <h2 class="display-3 col-10">
                     Take a look at my <a href="https://www.linkedin.com/in/daniel-ocando/">Linkedin</a>
                     for more details about my work, or send me a <a href="#">message!</a>
                 </h2>
             </div>
-            <div class="row justify-content-center">                    
+            <div class="row justify-content-center main-content collapse show">                    
                 <form method="POST" class="col-10 pb-5" action="process_form.php">
                     <div class="row form-group">
                         <input class="col-4 form-control" placeholder="name" type="text" name="name" id="name"></input>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </form>
-            <?php include 'footer.php' ?>
+            <?php include 'util/footer.php' ?>
         </div>
        <body>
     </body>

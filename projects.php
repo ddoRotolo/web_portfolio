@@ -3,16 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Ocando</title>
-        <?php include_once 'head.php' ?>
+        <?php include_once 'util/head.php' ?>
         <link rel="stylesheet" href="css/projects.css">
     </head>
         <div class="container-fluid">
-            <?php include 'header.php' ?>
-            <div class="row align-items-center" id="portfolio-header" >
+            <?php include 'util/header.php' ?>
+            <div class="row align-items-center main-content collapse show" id="portfolio-header" >
                 <h1 class="col-12 col-sm-10 offset-sm-1 display-3">My Portfolio</h1>
                 <p class="col-10 offset-sm-1">This is some of the work I've done throughout my career</p>
             </div>
-            <ul class="row justify-content-center p-0" id="portfolio">
+            <ul class="row justify-content-center p-0 main-content collapse show" id="portfolio">
                 <li class="col-10 col-sm-5 pb-5 project">
                     <h4>Project 1</h4>
                     <img src="img/thumb1.jpg" alt="thumb1">
@@ -66,7 +66,7 @@
                     <a href="ex_project.html">See Project</a>
                 </li>
             </ul>
-            <?php include 'footer.php' ?>
+            <?php include 'util/footer.php' ?>
         </div>
     <body>
     </body>
