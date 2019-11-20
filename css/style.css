@@ -1,11 +1,10 @@
 /* 
 Colors
 https://color.hailpixel.com/#6685FF,8F9DD6,95D68F,C1D68F,D2B384,120C22,17333F,1D3F4E
+https://color.hailpixel.com/#EB6600,00B8AB,FFFF0F,FF1E00,001633,003775
 */
 
 body {
-    background-color: #8F9DD6;
-    color: #120C22;
     font-family: 'Bree Serif', serif;
     padding: 0;
     width: 100%;
@@ -16,25 +15,20 @@ h1,h2,h3,h4 {
 }
 
 a {
-    color: #17333F;
 }
 
 a:hover {
-    color: #1D3F4E;
 }
 
 .navbar {
-    background-color: #C1D68F;
     font-size: 1.2em;
 }   
 
 .nav-link:hover {
     text-decoration: underline;
-    background-color: #D2B384;
 }
 
 footer {
-    background-color: #C1D68F;
 }
 
 footer ul {
@@ -44,6 +38,7 @@ footer ul {
 footer li {
     display: inline-block;
 }
+
 
 @include media-breakpoint-up(sm) {
   html {

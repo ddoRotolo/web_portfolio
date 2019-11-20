@@ -4,21 +4,29 @@
     background-repeat: no-repeat;
 }
 
-.hireable li:not(:first-child):before {
-  content: ", ";
+.job-experience {
 }
+
+.job-experience .experience:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
 
 .experience h4 {
-    display: inline-block;
-}
-
-.experience {
-    display: inline-block;
-    background: #aaa;
+    display: block;
 }
 
 .experience ul {
     list-style: none;
+    padding: 0;
+}
+
+.experience li {
+    display: inline-block;
+}
+
+.hireable li:not(:first-child):before {
+  content: ", ";
 }
 
 .hireable ul {

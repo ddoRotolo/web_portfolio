@@ -3,22 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <title>Daniel Ocando</title>
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Bree+Serif&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <?php include_once 'head.php' ?>
         <link rel="stylesheet" href="css/about.css">
     </head>
     <body>
         <div class="container-fluid"> 
-            <header class="row">
-                <nav class="text-center navbar col">
-                    <a class="pt-4 pb-3 active col nav-item nav-link active" href="index.html">home</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="about.html">about</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="projects.html">portfolio</a>
-                    <a class="pt-4 pb-3 col nav-item nav-link" href="contact.html">contact</a>
-                </nav>
-            </header>
-            <div class="row justify-content-center align-items-center" id="about" >
+            <?php include 'header.php' ?>
+            <div class="row justify-content-center align-items-center main-content" id="about" >
                 <div class="col-12 col-sm-10">
                     <div class="row">
                         <h1 class="col-11 col-sm-6 display-3">About Me</h1>
@@ -74,12 +65,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center align-items-center job-experience">
-                <h2 class="col-12 col-sm-10">Job Experience</h2>
-                <div class="col-12 col-sm-10 m-3 p-3 experience">
+            <div class="row pb-3 justify-content-center align-items-center job-experience">
+                <h2 class="display-4 mt-5 col-12 col-sm-10">Job Experience</h2>
+                <div class="col-12 col-sm-10 p-3 experience">
                     <div class="row">
                         <div class="col-4">
-                            <h4 class="time-period">November 2018 - October 2019</h4>
+                            <h4 class="time-period">Nov 2018 - Oct 2019</h4>
                             <h4 class="location">Buenos Aires</h4>
                         </div>
                         <div class="col-4">
@@ -95,10 +86,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-10 experience">
+                <div class="col-10 p-3 experience">
                     <div class="row">
                         <div class="col">
-                            <h4 class="time-period">September 2016 - October 2018</h4>
+                            <h4 class="time-period">Sep 2016 - Oct 2018</h4>
                             <h4 class="location">Buenos Aires</h4>
                         </div>
                         <div class="col">
@@ -115,16 +106,7 @@
                     </div>
                 </div>
             </div>
-            <footer class="row text-center page-footer">
-                <a class="col">Daniel Ocando 2019</a>
-                <ul class="col">
-                    <li>Whatsapp</li>
-                    <li>Linkedin</li>
-                    <li>Github</li>
-                    <li>Twitter</li>
-                </ul>
-                <p class="col">Sponsored by <a>DePc Suite</a></p>
-            </footer>
+            <?php include 'footer.php' ?>
         </div>
     </body>
 </html>

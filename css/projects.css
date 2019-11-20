@@ -2,6 +2,18 @@
     list-style: none;
 }
 
+#portfolio ul {
+}
+
 .project>img {
     width: 100%;
+    height: 240px;
+}
+
+.projects ul {
+    padding: 0;
+}
+
+.project p {
+    margin: 0;
 }
